@@ -1,0 +1,82 @@
+/* Resets */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Things to be inherited */
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(134, 147, 160);
+}
+
+.wrapper {
+    margin: auto;
+    background: rgb(69, 94, 119);
+    width: 350px;
+    padding-bottom: 1rem;
+}
+
+.form {
+    margin-top: 5rem;
+    padding: 2rem 1rem 1rem 1rem;
+    font-size: 1.3rem;
+}
+
+.currency {
+    color: rgb(134, 147, 160);
+}
+
+::placeholder {
+    font-size: 1.2rem;
+    color: rgb(134, 147, 160);
+}
+
+.form [type="text"] {
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.form [type="text"]:focus {
+    border: none;
+    outline: none;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+.time-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.time-container label {
+    margin-right: 1rem;
+}
+
+.btn-container {
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: rgb(134, 147, 160);
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background-color: rgb(84, 125, 167);
+}
+
+.error {
+    color: tomato;
+}
